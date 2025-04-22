@@ -26,13 +26,36 @@
       align-items: center;
       gap: 1rem;
     }
-    .search-section input, .search-section select {
+    .search-section input {
       padding: 0.75rem 1rem;
       border-radius: 8px;
       border: 1px solid #ccc;
       width: 100%;
       max-width: 400px;
       font-size: 1rem;
+    }
+    .type-dropdown {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      max-width: 400px;
+      width: 100%;
+    }
+    .type-dropdown button {
+      padding: 0.75rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      background: #fff;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .type-dropdown button:hover {
+      background-color: #e0e7ff;
+    }
+    .type-dropdown button.active {
+      background-color: #c3dafe;
+      font-weight: bold;
     }
     .results {
       display: grid;
@@ -64,7 +87,7 @@
       border-radius: 50%;
     }
     .details-section {
-      padding: 2rem;
+      padding: 1rem;
       max-width: 900px;
       margin: auto;
     }
@@ -106,37 +129,53 @@
     .stat-table td {
       padding: 0.25rem 0.5rem;
     }
+    .opponent-card p:has(> .weakness-tag) {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .weakness-tag {
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+    .weakness-normal { background: #A8A878; }
+    .weakness-fire { background: #F08030; }
+    .weakness-water { background: #6890F0; }
+    .weakness-electric { background: #F8D030; }
+    .weakness-grass { background: #78C850; }
+    .weakness-ice { background: #98D8D8; }
+    .weakness-fighting { background: #C03028; }
+    .weakness-poison { background: #A040A0; }
+    .weakness-ground { background: #E0C068; }
+    .weakness-flying { background: #A890F0; }
+    .weakness-psychic { background: #F85888; }
+    .weakness-bug { background: #A8B820; }
+    .weakness-rock { background: #B8A038; }
+    .weakness-ghost { background: #705898; }
+    .weakness-dragon { background: #7038F8; }
+    .weakness-dark { background: #705848; }
+    .weakness-steel { background: #B8B8D0; }
+    .weakness-fairy { background: #EE99AC; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Pokémon Masters EX Battle Info</h1>
+    <h1>Pokémon Masters Event & Battle Challenges Info</h1>
     <p>Search and explore data from past boss battles</p>
   </header>
   <section class="search-section">
-    <input type="text" placeholder="Search by event, Pokémon, or trainer name...">
-    <select>
-      <option value="">Filter by Type Weakness</option>
-      <option value="normal">Normal</option>
-      <option value="fire">Fire</option>
-      <option value="water">Water</option>
-      <option value="electric">Electric</option>
-      <option value="grass">Grass</option>
-      <option value="ice">Ice</option>
-      <option value="fighting">Fighting</option>
-      <option value="poison">Poison</option>
-      <option value="ground">Ground</option>
-      <option value="flying">Flying</option>
-      <option value="psychic">Psychic</option>
-      <option value="bug">Bug</option>
-      <option value="rock">Rock</option>
-      <option value="ghost">Ghost</option>
-      <option value="dragon">Dragon</option>
-      <option value="dark">Dark</option>
-      <option value="steel">Steel</option>
-      <option value="fairy">Fairy</option>
-      <!-- Add more types as needed -->
-    </select>
+    <input type="text" id="searchInput" placeholder="Search by event, Pokémon, or trainer name...">
+    <div class="type-dropdown" id="typeDropdown">
+      <button data-type="normal">Normal</button><button data-type="fire">Fire</button><button data-type="water">Water</button>
+      <button data-type="electric">Electric</button><button data-type="grass">Grass</button><button data-type="ice">Ice</button>
+      <button data-type="fighting">Fighting</button><button data-type="poison">Poison</button><button data-type="ground">Ground</button>
+      <button data-type="flying">Flying</button><button data-type="psychic">Psychic</button><button data-type="bug">Bug</button>
+      <button data-type="rock">Rock</button><button data-type="ghost">Ghost</button><button data-type="dragon">Dragon</button>
+      <button data-type="dark">Dark</button><button data-type="steel">Steel</button><button data-type="fairy">Fairy</button>
+    </div>
   </section>
   <section class="results">
     <div class="card">
@@ -144,11 +183,8 @@
         <img src="https://via.placeholder.com/32" alt="Trainer Icon">
         <img src="https://via.placeholder.com/32" alt="Type Icon">
       </div>
-      <h3>Event: Champion's Clash</h3>
-      <p>Featuring: Lance & Dragonite</p>
-      <p>Weakness: Ice</p>
+      <h2>Event: Champion's Clash</h2><p>Featuring: Lance & Dragonite</p><p>Weakness: Ice</p>
     </div>
-    <!-- More results go here -->
   </section>
   <section class="details-section">
     <h2>Battle Details</h2>
@@ -160,88 +196,180 @@
       <tr><th>Difficulty</th><td>Hard</td></tr>
       <tr><th>Recommended Level</th><td>100</td></tr>
     </table>
-
     <h2>Opponents</h2>
     <div class="opponents">
       <div class="opponent-card">
-        <h3>Lance</h3>
-        <p>Pokémon: Dragonite</p>
-        <p>Weakness: Ice</p>
+        <h3>Trainer Red</h3>
+        <p>Pokémon: Charizard</p>
+        <p>Weakness: <span class="weakness-tag weakness-water">Water</span></p>
         <table class="stat-table">
-          <tr><td>HP</td><td>150</td></tr>
-          <tr><td>Atk</td><td>120</td></tr>
-          <tr><td>Def</td><td>100</td></tr>
-          <tr><td>Sp.Def</td><td>90</td></tr>
-          <tr><td>Speed</td><td>85</td></tr>
+          <tr><td>HP</td><td>700</td></tr>
+          <tr><td>Attack</td><td>300</td></tr>
+          <tr><td>Defense</td><td>250</td></tr>
+          <tr><td>Sp. Def</td><td>240</td></tr>
+          <tr><td>Speed</td><td>320</td></tr>
         </table>
-        <div>
-          <strong>Moves:</strong>
-          <div class="scrollable-box">
-            <p>Dragon Claw</p>
-            <p>Hyper Beam</p>
-            <p>Thunder Wave</p>
-          </div>
+        <strong>Moves</strong>
+        <div class="scrollable-box">
+          <ul>
+            <li>Flamethrower</li>
+            <li>Heat Wave</li>
+            <li>Blast Burn</li>
+          </ul>
         </div>
-        <div>
-          <strong>Skills:</strong>
-          <div class="scrollable-box">
-            <p>Multiscale</p>
-          </div>
+        <strong>Skills</strong>
+        <div class="scrollable-box">
+          <ul>
+            <li>Power Boost</li>
+            <li>Crit Strike</li>
+            <li>HP Recovery</li>
+          </ul>
         </div>
       </div>
       <div class="opponent-card">
-        <h3>Cynthia</h3>
-        <p>Pokémon: Garchomp</p>
-        <p>Weakness: Ice</p>
+        <h3>Trainer Blue</h3>
+        <p>Pokémon: Blastoise</p>
+        <p>Weakness: <span class="weakness-tag weakness-electric">Electric</span></p>
         <table class="stat-table">
-          <tr><td>HP</td><td>160</td></tr>
-          <tr><td>Atk</td><td>130</td></tr>
-          <tr><td>Def</td><td>95</td></tr>
-          <tr><td>Sp.Def</td><td>90</td></tr>
-          <tr><td>Speed</td><td>102</td></tr>
+          <tr><td>HP</td><td>680</td></tr>
+          <tr><td>Attack</td><td>260</td></tr>
+          <tr><td>Defense</td><td>300</td></tr>
+          <tr><td>Sp. Def</td><td>290</td></tr>
+          <tr><td>Speed</td><td>250</td></tr>
         </table>
-        <div>
-          <strong>Moves:</strong>
-          <div class="scrollable-box">
-            <p>Earthquake</p>
-            <p>Dragon Rush</p>
-            <p>Swords Dance</p>
-          </div>
+        <strong>Moves</strong>
+        <div class="scrollable-box">
+          <ul>
+            <li>Hydro Pump</li>
+            <li>Rain Dance</li>
+            <li>Surf</li>
+          </ul>
         </div>
-        <div>
-          <strong>Skills:</strong>
-          <div class="scrollable-box">
-            <p>Rough Skin</p>
-          </div>
+        <strong>Skills</strong>
+        <div class="scrollable-box">
+          <ul>
+            <li>Defense Boost</li>
+            <li>Shield Ally</li>
+            <li>Stamina</li>
+          </ul>
         </div>
       </div>
       <div class="opponent-card">
-        <h3>Steven</h3>
-        <p>Pokémon: Metagross</p>
-        <p>Weakness: Fire</p>
+        <h3>Trainer Green</h3>
+        <p>Pokémon: Venusaur</p>
+        <p>Weakness: <span class="weakness-tag weakness-fire">Fire</span></p>
         <table class="stat-table">
-          <tr><td>HP</td><td>170</td></tr>
-          <tr><td>Atk</td><td>135</td></tr>
-          <tr><td>Def</td><td>130</td></tr>
-          <tr><td>Sp.Def</td><td>95</td></tr>
-          <tr><td>Speed</td><td>70</td></tr>
+          <tr><td>HP</td><td>690</td></tr>
+          <tr><td>Attack</td><td>280</td></tr>
+          <tr><td>Defense</td><td>270</td></tr>
+          <tr><td>Sp. Def</td><td>260</td></tr>
+          <tr><td>Speed</td><td>240</td></tr>
         </table>
-        <div>
-          <strong>Moves:</strong>
-          <div class="scrollable-box">
-            <p>Meteor Mash</p>
-            <p>Bullet Punch</p>
-            <p>Iron Defense</p>
-          </div>
+        <strong>Moves</strong>
+        <div class="scrollable-box">
+          <ul>
+            <li>Solar Beam</li>
+            <li>Sludge Bomb</li>
+            <li>Leech Seed</li>
+          </ul>
         </div>
-        <div>
-          <strong>Skills:</strong>
-          <div class="scrollable-box">
-            <p>Clear Body</p>
-          </div>
+        <strong>Skills</strong>
+        <div class="scrollable-box">
+          <ul>
+            <li>Healing Factor</li>
+            <li>Status Shield</li>
+            <li>Poison Tech</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
+
+  <script>
+    const buttons = document.querySelectorAll('#typeDropdown button');
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+        const type = button.getAttribute('data-type');
+        console.log('Filtering by type:', type);
+        // Add filter logic here
+    <script>
+async function loadBossData() {
+  const response = await fetch('boss-data.json');
+  const battles = await response.json();
+
+  const resultsContainer = document.querySelector('.results');
+  resultsContainer.innerHTML = '';
+
+  battles.forEach(battle => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="card-icons">
+        <img src="https://via.placeholder.com/32" alt="Trainer Icon">
+        <img src="https://via.placeholder.com/32" alt="Type Icon">
+      </div>
+      <h2>Event: ${battle.eventName}</h2>
+      <p>Featuring: ${battle.opponents.map(o => o.trainer).join(' & ')}</p>
+      <p>Weakness: ${battle.opponents.map(o => o.weakness).join(', ')}</p>
+    `;
+
+    card.addEventListener('click', () => showBattleDetails(battle));
+    resultsContainer.appendChild(card);
+  });
+}
+
+function showBattleDetails(battle) {
+  const table = document.querySelector('.details-section table');
+  table.innerHTML = `
+    <tr><th>Event</th><td>${battle.eventName}</td></tr>
+    <tr><th>Battle Label</th><td>${battle.battleLabel}</td></tr>
+    <tr><th>Start Date</th><td>${battle.startDate}</td></tr>
+    <tr><th>End Date</th><td>${battle.endDate}</td></tr>
+    <tr><th>Difficulty</th><td>${battle.difficulty}</td></tr>
+    <tr><th>Recommended Level</th><td>${battle.recommendedLevel}</td></tr>
+  `;
+
+  const opponentsContainer = document.querySelector('.opponents');
+  opponentsContainer.innerHTML = '';
+  battle.opponents.forEach(op => {
+    const stats = op.stats;
+    const card = document.createElement('div');
+    card.className = 'opponent-card';
+    card.innerHTML = `
+      <h3>Trainer ${op.trainer}</h3>
+      <p>Pokémon: ${op.pokemon}</p>
+      <p>Weakness: <span class="weakness-tag weakness-${op.weakness}">${capitalize(op.weakness)}</span></p>
+      <table class="stat-table">
+        <tr><td>HP</td><td>${stats.HP}</td></tr>
+        <tr><td>Attack</td><td>${stats.Attack}</td></tr>
+        <tr><td>Defense</td><td>${stats.Defense}</td></tr>
+        <tr><td>Sp. Def</td><td>${stats["Sp. Def"]}</td></tr>
+        <tr><td>Speed</td><td>${stats.Speed}</td></tr>
+      </table>
+      <strong>Moves</strong>
+      <div class="scrollable-box">
+        <ul>${op.moves.map(m => `<li>${m}</li>`).join('')}</ul>
+      </div>
+      <strong>Skills</strong>
+      <div class="scrollable-box">
+        <ul>${op.skills.map(s => `<li>${s}</li>`).join('')}</ul>
+      </div>
+    `;
+    opponentsContainer.appendChild(card);
+  });
+}
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+loadBossData();
+</script>
+
+      });
+    });
+  </script>
 </body>
 </html>
