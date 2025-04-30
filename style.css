@@ -128,28 +128,28 @@
       gap: 0.5rem;
     }
     .weakness-tag {
-      color: white;
       padding: 0.25rem 0.5rem;
       border-radius: 4px;
       font-size: 0.9rem;
       font-weight: bold;
     }
-    .weakness-normal { background: #A8A878; }
-    .weakness-fire { background: #F08030; }
-    .weakness-water { background: #6890F0; }
-    .weakness-electric { background: #F8D030; }
-    .weakness-grass { background: #78C850; }
-    .weakness-ice { background: #98D8D8; }
-    .weakness-fighting { background: #C03028; }
-    .weakness-poison { background: #A040A0; }
-    .weakness-ground { background: #E0C068; }
-    .weakness-flying { background: #A890F0; }
-    .weakness-psychic { background: #F85888; }
-    .weakness-bug { background: #A8B820; }
-    .weakness-rock { background: #B8A038; }
-    .weakness-ghost { background: #705898; }
-    .weakness-dragon { background: #7038F8; }
-    .weakness-dark { background: #705848; }
-    .weakness-steel { background: #B8B8D0; }
-    .weakness-fairy { background: #EE99AC; }
+    .weakness-normal { background: #969493; color: #fff; }
+    .weakness-fire { background: #bd3437; color: #fff; }
+    .weakness-water { background: #55b8e2; color: #000; }
+    .weakness-electric { background: #dcb40a; color: #000; }
+    .weakness-grass { background: #459e4e; color: #fff; }
+    .weakness-ice { background: #94c9cb; color: #000; }
+    .weakness-fighting { background: #d57741; color: #000; }
+    .weakness-poison { background: #784a91; color: #fff; }
+    .weakness-ground { background: #975939; color: #fff; }
+    .weakness-flying { background: #4971dd; color: #fff; }
+    .weakness-psychic { background: #c34b78; color: #000; }
+    .weakness-bug { background: #9cb558; color: #000; }
+    .weakness-rock { background: #85725f; color: #fff; }
+    .weakness-ghost { background: #a0739b; color: #000; }
+    .weakness-dragon { background: #1284a1; color: #fff; }
+    .weakness-dark { background: #4a4759; color: #fff; }
+    .weakness-steel { background: #7f889c; color: #000; }
+    .weakness-fairy { background: #ed9bb8; color: #000; }
+
   </style>
