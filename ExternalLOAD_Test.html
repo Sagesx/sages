@@ -37,11 +37,11 @@
         <div class="container">
           <table class="stat-table">
             <tr><td>Stat</td><td>Value</td><td>Mitigation</td></tr>
-            <tr><td>HP</td><td>19,250</td><td>N/A</td></tr>
-            <tr><td>Attack</td><td>1,382</td><td>0</td></tr>
-            <tr><td>Defense</td><td>83</td><td>0</td></tr>
-            <tr><td>Sp.Atk</td><td>1,382</td><td>0</td></tr>
-            <tr><td>Sp. Def</td><td>83</td><td>0</td></tr>
+            <tr><td>HP</td><td id="opp_left-hp">???</td><td>N/A</td></tr>
+            <tr><td>Attack</td><td id="opp_left-atk">???</td><td id="opp_left-atk-mit">?</td></tr>
+            <tr><td>Defense</td><td id="opp_left-def">???</td><td id="opp_left-def-mit">?</td></tr>
+            <tr><td>Sp.Atk</td><td id="opp_left-spa">???</td><td id="opp_left-spa-mit">?</td></tr>
+            <tr><td>Sp. Def</td><td id="opp_left-spd">???</td><td id="opp_left-spd-mit">?</td></tr>
             <tr><td>Speed</td><td>204</td><td>0</td></tr>
           </table>
           <table class="rules-table">
@@ -244,4 +244,26 @@
     </div>
   </section>
 </body>
+
+<script>
+  async function fillData() {
+    try {
+      const response = await fetch("test.json");
+      const data = await response.json();
+
+      // Just update the cells by ID
+      document.getElementById("opp_left-hp").textContent = data.opp_left.hp;
+      
+      // document.getElementById("stat-attack").textContent = data.attack;
+      // document.getElementById("stat-defense").textContent = data.defense;
+      // document.getElementById("stat-speed").textContent = data.speed;
+    } catch (error) {
+      console.error("Failed to load stat data:", error);
+    }
+  }
+
+  fillData();
+
+</script>
+
 </html>
