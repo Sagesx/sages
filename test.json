@@ -12,23 +12,24 @@
                 ],
 
     "opp_left": {
-                    "type_class": "opponent-card bg-type-water",
-                    "trainer_img": "?",
+                    "type": "water",
                     "name": "Barry & Empoleon",
+                    "trainer_img": "?",
                     "pokemon_img": "?",
                     
                     "hp": "7700",
-                    "atk": "1344",  "atk_mit": "5",
-                    "def": "83",    "def_mit": "3",
-                    "spa": "1344",  "spa_mit": "5",
-                    "spd": "166",   "spd_mit": "5",
-                    "spe": "204",   "spe_mit": "5",
+                    "atk": "1344",                             "atk_mit": "5",
+                    "def": "83",                               "def_mit": "3",
+                    "spa": "1344",                             "spa_mit": "5",
+                    "spd": {"text":"166", "highlight":true},   "spd_mit": "5",
+                    "spe": "204",                              "spe_mit": "5",
+                                                               "acc_mit": "5",
+                                                               "eva_mit": "5",
 
                     "weakness_class": "bg-type-fight",
                     "weakness_img": "images/types/32px/fighting.png",
 
-                    "resil": "❌", 
-                    "gaze": "❌",
+                    "resil": "❌", "gaze": "❌",
 
                     "poison": "9",
                     "burn": "9",
@@ -45,14 +46,13 @@
 	                            "X Speed All (Uses 1)",
 	                            "Rock Slide"
                             ],
-
-                    "skills": [
-                                "Wise Entry ×2",
-	                            "Dark DF Resistance 5",
+                   "skills": [
+                                {"text": "Wise Entry ×2", "highlight": true},
 	                            "Tough Cookie",
 	                            "Trained Body 3",
                                 "Mind's Eye 5",
                                 "Nimble Footed 5",
+                                "Dark DF Resistance 5",
                                 "All Other DF Resistance 9"
                               ]
                     }
