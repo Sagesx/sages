@@ -1,0 +1,174 @@
+{
+    "title": "Story Event - Together in an Unknown Land - Battle Challenge! Round 2",
+
+    "missions": [
+                    "2 or more [SINNOH] theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [DARK] & [FIGHTING] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "2) April 5th, 2025 06:00 UTC to April 23rd, 2025 06:00 UTC",
+                    "1) September 29th, 2023 06:00 UTC to October 16th, 2023 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "steel",
+                    "title": "Barry & Empoleon",
+                    "trainer_name": "Barry",
+                    "pokemon_name": "Empoleon",
+                    
+                    "hp": "7700",
+                    "atk": "1,344",
+                    "def": "83",
+                    "spa": "1,344",
+                    "spd": {"text":"166", "highlight": true},
+                    "spe": "204",
+                    "atkMit": "5",
+                    "defMit": "3",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-fight",
+                    "weakness_img": "images/types/32px/fighting.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison": "9",
+                    "burn": "9",
+                    "paralyze": "8",
+                    "freeze": "8",
+                    "sleep": "8",
+                    "confuse": "8",
+                    "flinch": "8",
+                    "trap": "9",
+
+                    "moves": [
+                        	    "Waterfall",
+	                            "Steel Wing (Uses 1)",
+	                            "X Speed All (Uses 1)",
+	                            "Rock Slide"
+                            ],
+                   "skills": [
+                                {"text": "Wise Entry ×2", "highlight":true},
+	                            "Tough Cookie",
+	                            "Trained Body 3",
+                                "Mind's Eye 5",
+                                "Nimble Footed 5",
+                                "Dark DF Resistance 5",
+                                "All Other DF Resistance 9"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "dragon",
+                    "title": "Lucas & Dialga",
+                    "trainer_name": "Lucas",
+                    "pokemon_name": "Dialga",
+                    
+                    "hp": "23,100",
+                    "atk": "1,152",
+                    "def": "83",
+                    "spa": "1,152",
+                    "spd": {"text":"166", "highlight":true},
+                    "spe": "67",
+                    "atkMit": "5",
+                    "defMit": "3",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-fight",
+                    "weakness_img": "images/types/32px/fighting.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison": "9",
+                    "burn": "9",
+                    "paralyze": "8",
+                    "freeze": "8",
+                    "sleep": "8",
+                    "confuse": "⛔",
+                    "flinch": "8",
+                    "trap": "9",
+
+                    "moves": [
+                        	    "Roar of Time",
+                                "Outrage",
+                                "Dragon Pulse",
+	                            "Physical Shield (Uses 1)",
+	                            "X Defense All (Uses 1)",                                
+	                            "X Sp. Atk All (Uses 1)",
+	                            "Illuminating Roar of Time"
+                            ],
+                   "skills": [
+                                {"text": "Wise Entry ×2", "highlight": true},
+                                {"text": "Dragon Drop Zone", "highlight": true},
+                                "Team Pinpoint Entry 1",
+                                "Dragon Zone Extension 5",
+                                "Dragonic Acceleration 2",
+	                            "Tough Cookie",
+                                "Move Gauge Refresh 9",
+                                "Clearheaded",
+                                "Team Sentry Entry 1",
+                                {"text": "Towering Force", "highlight": true},
+                                "Dragonic Power 2",
+	                            "Trained Body 3",
+                                "Dark DF Resistance 5",
+                                "All Other DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "psychic",
+                    "title": "Dawn & Cresselia",
+                    "trainer_name": "Dawn",
+                    "pokemon_name": "Cresselia",
+                    
+                    "hp": "15,400",
+                    "atk": "960",
+                    "def": "83",
+                    "spa": "960",
+                    "spd": {"text":"166", "highlight":true},
+                    "spe": "204",   
+                    "atkMit": "5",
+                    "defMit": "3",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-dark",
+                    "weakness_img": "images/types/32px/dark.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison": "9",
+                    "burn": "9",
+                    "paralyze": "8",
+                    "freeze": "8",
+                    "sleep": "8",
+                    "confuse": "8",
+                    "flinch": "8",
+                    "trap": "9",
+
+                    "moves": [
+                        	    "Psychic",
+	                            "Shadow Ball (Uses 1)",
+	                            "X Sp. Def All (Uses 1)",
+	                            "Swift"
+                            ],
+                   "skills": [
+                                {"text": "Wise Entry ×2", "highlight": true},
+	                            "Tough Cookie",
+	                            "Trained Body 3",
+                                "Dark DF Resistance 5",
+                                "All Other DF Resistance 9"
+                              ]
+                    }
+}

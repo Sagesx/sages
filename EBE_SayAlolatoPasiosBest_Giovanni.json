@@ -1,0 +1,171 @@
+{
+    "title": "Extreme Battle Event - Say Alola to Pasio’s Best - Take On Giovanni!",
+
+    "missions": [
+                    "2 or more [ROCK] theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [MAIN CHARACTER] & [ALOLA ADVENTURER] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "1) June 3rd, 2025 06:00 UTC to June 21st, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "bug",
+                    "title": "Team Rocket & Scyther",
+                    "trainer_name": "Team Rocket F",
+                    "pokemon_name": "Scyther",
+                    
+                    "hp": "9,250",
+                    "atk": "5,606",
+                    "def": {"text": "800", "highlight": true},
+                    "spa": "5,606",
+                    "spd": "400",
+                    "spe": "200",   
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-rock",
+                    "weakness_img": "images/types/32px/rock.png",
+
+                    "resil": "✔️", "gaze": "❌",
+
+                    "poison":    "10",
+                    "burn":      "9",
+                    "paralyze":  "8",
+                    "freeze":    "8",
+                    "sleep":     "8",
+                    "confuse":   "8",
+                    "flinch":    "8",
+                    "trap":      "9",
+
+                    "moves": [
+                                "Swift (Unlimited)",
+                                "Double-Edge (Unlimited)",
+                                "Struggle Bug (Unlimited)",
+                                "Double-Edge (Unlimited)",
+                                "Swift (Unlimited)"
+                            ],
+                   "skills": [
+                                "Resilience",
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Lessen Poison 10",
+                                "Standfast 9",
+                                "Toughen Up 9",
+                                {"text": "Double Drop", "highlight": true},
+                                "All DF Resistance 9"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "fire",
+                    "title": "Giovanni & Arcanine",
+                    "trainer_name": "Giovanni",
+                    "pokemon_name": "Arcanine",
+                    
+                    "hp": "22,200",
+                    "atk": "6,037",
+                    "def": "400",
+                    "spa": "5,175",
+                    "spd": {"text": "800", "highlight": true},
+                    "spe": "66",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-rock",
+                    "weakness_img": "images/types/32px/rock.png",
+
+                    "resil": "✔️", "gaze": "❌",
+
+                    "poison":   "10",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Flame Wheel",
+                                "Fire Fang",
+                                "Heat Wave (Uses 1)",
+                                "Flare Blitz",
+                                "Snarl (Uses 1)",
+                                "Nowhere to Hide! (Uses 1)",
+                                "Fire Sync Impact"
+                            ],
+                   "skills": [
+                                "Resilience",
+                                {"text": "Wise Entry ×2", "highlight": true},                                
+                                "Lessen Poison 10",
+                                "Team Pinpoint Entry 2",
+                                "Standfast 9",
+                                "Tighten Up 9",
+                                "Satisfied Snarl 9",
+                                {"text": "Double Drop", "highlight": true},
+                                "All DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "bug",
+                    "title": "Team Rocket & Pinsir",
+                    "trainer_name": "Team Rocket M",
+                    "pokemon_name": "Pinsir",
+                    
+                    "hp": "9,250",
+                    "atk": "3,881",
+                    "def": {"text": "800", "highlight": true},
+                    "spa": "3,881",
+                    "spd": "400",
+                    "spe": "200",   
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-rock",
+                    "weakness_img": "images/types/32px/rock.png",
+
+                    "resil": "✔️", "gaze": "❌",
+
+                    "poison":    "10",
+                    "burn":      "9",
+                    "paralyze":  "8",
+                    "freeze":    "8",
+                    "sleep":     "8",
+                    "confuse":   "8",
+                    "flinch":    "8",
+                    "trap":      "9",
+
+                    "moves": [
+                                "Earthquake (Unlimited)",
+                                "Struggle Bug (Unlimited)",
+                                "X Attack All (Uses 1)",
+                                "Earthquake (Unlimited)",
+                                "Rock Slide (Unlimited)"
+                            ],
+                   "skills": [
+                                "Resilience",
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Lessen Poison 10",
+                                "Toughen Up 9",
+                                {"text": "Double Drop", "highlight": true},
+                                "All DF Resistance 9"
+                              ]
+                    }
+}
