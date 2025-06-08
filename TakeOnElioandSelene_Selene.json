@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "title": "Special Battle Event - Take On Elio and Selene - Challenge Champion Selene: Part 2",
 
@@ -156,4 +157,164 @@
                                 "None"
                               ]
                     }
+=======
+{
+    "title": "Special Battle Event - Take On Elio and Selene - Challenge Champion Selene: Part 2",
+
+    "missions": [
+                    "None"
+                ],
+
+    "schedule": [
+                    "1) June 1st, 2025 06:00 UTC to June 17th, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "ghost",
+                    "title": "Beauty & Mismagius",
+                    "trainer_name": "Beauty",
+                    "pokemon_name": "Mismagius",
+                    
+                    "hp": "7,240",
+                    "atk": "1,464",
+                    "def": "78",
+                    "spa": "1,464",
+                    "spd": "78",
+                    "spe": "198",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-dark",
+                    "weakness_img": "images/types/32px/dark.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [
+                        	    "Hex",
+	                            "Psybeam (Uses 1)",
+                              "Special Shield (Uses 1)",
+                              "Double-Edge"
+                            ],
+                   "skills": [
+                                "Standfast 9"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "ghost",
+                    "title": "Selene (Champion) & Necrozma ☆ (Dawn Wings)",
+                    "trainer_name": "Selene (Champion)",
+                    "pokemon_name": "Necrozma ☆ (Dawn Wings)",
+                    
+                    "hp": "28,960",
+                    "atk": "1,464",
+                    "def": "78",
+                    "spa": "1,464",
+                    "spd": "78",
+                    "spe": "65",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "3",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "3",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-dark",
+                    "weakness_img": "images/types/32px/dark.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                        	    "Dark Pulse",
+                              "Hyper Voice",
+                              "Heat Wave",
+	                            "Move Gauge Boost (Uses 1)",                                
+	                            "X Sp. Atk All (Uses 1)",
+                              "Moongeist Beam (Uses 1)",
+	                            "Dawn Lunar Eclipse Moongeist Beam"
+                            ],
+                   "skills": [
+                                {"text": "Fluid Fortification", "highlight": true},
+                                "Reinforced",
+                                "Weakened",
+                                "Invulnerable",
+                                "Vulnerable",
+                                "Team Grand Entry 1",
+                                "Sync Freebie",
+                                "Catalytic Acceleration",
+                                "Steady Resolve 3",
+	                              "Mind's Eye 3",
+                                "All DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "ghost",
+                    "title": "Pokemon Ranger & Gengar",
+                    "trainer_name": "Pokemon Ranger",
+                    "pokemon_name": "Gengar",
+                    
+                    "hp": "7,240",
+                    "atk": "976",
+                    "def": "78",
+                    "spa": "976",
+                    "spd": "78",
+                    "spe": "198",   
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-dark",
+                    "weakness_img": "images/types/32px/dark.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":    "0",
+                    "burn":      "0",
+                    "paralyze":  "0",
+                    "freeze":    "0",
+                    "sleep":     "0",
+                    "confuse":   "0",
+                    "flinch":    "0",
+                    "trap":      "0",
+
+                    "moves": [
+                        	    "Dark Pulse",
+	                            "Sludge Bomb (Uses 1)",
+	                            "Physical Shield (Uses 1)",
+	                            "Sludge Wave"
+                            ],
+                   "skills": [
+                                "None"
+                              ]
+                    }
+>>>>>>> bd3b833f73c1c61913ea98249d8b0b6966a113d9
 }

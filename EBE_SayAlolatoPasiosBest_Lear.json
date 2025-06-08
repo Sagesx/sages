@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "title": "Extreme Battle Event - Say Alola to Pasio’s Best - Take On Lear!",
 
@@ -163,4 +164,171 @@
                                 "All DF Resistance 9"
                               ]
                     }
+=======
+{
+    "title": "Extreme Battle Event - Say Alola to Pasio’s Best - Take On Lear!",
+
+    "missions": [
+                    "2 or more [GHOST] theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [ALOLA ADVENTURER] & [TRIAL GIVER] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "1) June 3rd, 2025 06:00 UTC to June 21st, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "psychic",
+                    "title": "Ace Trainer & Solrock",
+                    "trainer_name": "Ace Trainer ♂",
+                    "pokemon_name": "Solrock",
+                    
+                    "hp": "9,250",
+                    "atk": "6,900",
+                    "def": {"text": "800", "highlight": true},
+                    "spa": "6,900",
+                    "spd": "400",
+                    "spe": "200",   
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-ghost",
+                    "weakness_img": "images/types/32px/ghost.png",
+
+                    "resil": "✔️", "gaze": "❌",
+
+                    "poison":    "10",
+                    "burn":      "9",
+                    "paralyze":  "8",
+                    "freeze":    "8",
+                    "sleep":     "8",
+                    "confuse":   "8",
+                    "flinch":    "8",
+                    "trap":      "9",
+
+                    "moves": [
+                        	    "Earthquake",
+                              "Rock Tomb",
+                              {"text": "Psychic Terrain (Uses 1)", "highlight": true},
+                              "Stone Edge",
+                              "Rock Slide"
+                            ],
+                   "skills": [
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Resilience",
+                                "Precognition 2",
+                                "Lessen Poison 10", 
+                                "All DF Resistance 9"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "psychic",
+                    "title": "Lear & Hoopa",
+                    "trainer_name": "Lear",
+                    "pokemon_name": "Hoopa",
+                    
+                    "hp": "25,900",
+                    "atk": "10,350",
+                    "def": {"text": "800", "highlight": true},
+                    "spa": "10,350",
+                    "spd": "400",
+                    "spe": "150",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-ghost",
+                    "weakness_img": "images/types/32px/ghost.png",
+
+                    "resil": "✔️", "gaze": "❌",
+
+                    "poison":   "10",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                                {"text": "Snatch (Uses 1)", "highlight": true},
+                                "Psychic (Unlimited)",
+                                "Shadow Ball (Unlimited)",
+                                "Hyperspace Hole (Unlimited)",
+                                "X Sp. Atk All (Uses 1)",
+                                "Follow My Lead! (Uses 1)",
+                                "Singularity Hyperspace Hole"
+                            ],
+                   "skills": [
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Resilience",
+                                {"text": "Safety Net", "highlight": true},
+                                "Sync Cure",
+                                {"text": "Unyielding 4", "highlight": true},
+                                "Precognition 2",
+                                "Lessen Poison 10",
+                                "Team Pinpoint Entry 2",          
+                                "All DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "psychic",
+                    "title": "Ace Trainer & Lunatone",
+                    "trainer_name": "Ace Trainer ♀",
+                    "pokemon_name": "Lunatone",
+                    
+                    "hp": "9,250",
+                    "atk": "6,900",
+                    "def": {"text": "800", "highlight": true},
+                    "spa": "6,900",
+                    "spd": "400",
+                    "spe": "200",   
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-ghost",
+                    "weakness_img": "images/types/32px/ghost.png",
+
+                    "resil": "✔️", "gaze": "❌",
+
+                    "poison":    "10",
+                    "burn":      "9",
+                    "paralyze":  "8",
+                    "freeze":    "8",
+                    "sleep":     "8",
+                    "confuse":   "8",
+                    "flinch":    "8",
+                    "trap":      "9",
+
+                    "moves": [
+                        	    "Blizzard",
+                              "Icy Wind",
+                              "Psychic"
+                            ],
+                   "skills": [
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Resilience",
+                                "Precognition 2",
+                                "Lessen Poison 10", 
+                                "All DF Resistance 9"
+                              ]
+                    }
+>>>>>>> bd3b833f73c1c61913ea98249d8b0b6966a113d9
 }
