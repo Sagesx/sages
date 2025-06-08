@@ -1,0 +1,159 @@
+{
+    "title": "Special Battle Event - Take On Elio and Selene - Challenge Champion Elio: Part 2",
+
+    "missions": [
+                    "None"
+                ],
+
+    "schedule": [
+                    "1) June 1st, 2025 06:00 UTC to June 17th, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "elec",
+                    "title": "Camper & Golem",
+                    "trainer_name": "Camper",
+                    "pokemon_name": "Golem (Alola)",
+                    
+                    "hp": "10,860",
+                    "atk": "1,464",
+                    "def": "78",
+                    "spa": "1,464",
+                    "spd": {"text":"156", "highlight": true},
+                    "spe": "198",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-ground",
+                    "weakness_img": "images/types/32px/ground.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [
+                        	    "Brutal Swing",
+	                            "Body Slam (Uses 1)",
+                              "Physical Shield (Uses 1)",
+                              "Discharge"
+                            ],
+                   "skills": [
+                                "Clear Power-Up 3",
+                                {"text": "Wise Entry ×2", "highlight":true}
+                              ]
+                    },
+
+    "mid": {
+                    "type": "steel",
+                    "title": "Elio (Champion) & Necrozma ☆ (Dusk Mane)",
+                    "trainer_name": "Elio (Champion)",
+                    "pokemon_name": "Necrozma ☆ (Dusk Mane)",
+                    
+                    "hp": "21,720",
+                    "atk": "1,464",
+                    "def": "78",
+                    "spa": "1,464",
+                    "spd": {"text":"156", "highlight":true},
+                    "spe": "65",
+                    "atkMit": "5",
+                    "defMit": "3",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-ground",
+                    "weakness_img": "images/types/32px/ground.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                        	    "Iron Head",
+                              "Rock Tomb",
+                              "Brutal Swing",
+	                            "X Speed All (Uses 1)",                                
+	                            "X Attack All (Uses 1)",
+                              "Sunsteel Strike (Uses 1)",
+	                            "Dusk Solar Eclipse Sunsteel Strike"
+                            ],
+                   "skills": [
+                                "Clear Power-Up 5",
+                                "Clear Sync-Up 5",
+                                {"text": "Wise Entry ×2", "highlight": true},
+                                "Pinpoint Entry 1",
+                                "Sync Freebie",
+                                "S-Move: Physical Boost ↑2 9",
+	                              "Trained Body 3",
+                                "All DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "steel",
+                    "title": "Scientist & Dugtrio",
+                    "trainer_name": "Scientist",
+                    "pokemon_name": "Dugtrio (Alola)",
+                    
+                    "hp": "10,860",
+                    "atk": "976",
+                    "def": "78",
+                    "spa": "976",
+                    "spd": {"text":"156", "highlight":true},
+                    "spe": "198",   
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-ground",
+                    "weakness_img": "images/types/32px/ground.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":    "0",
+                    "burn":      "0",
+                    "paralyze":  "0",
+                    "freeze":    "0",
+                    "sleep":     "0",
+                    "confuse":   "0",
+                    "flinch":    "0",
+                    "trap":      "0",
+
+                    "moves": [
+                        	    "Iron Head",
+	                            "Double Edge (Uses 1)",
+	                            "X Speed All (Uses 1)",
+	                            "Rock Slide"
+                            ],
+                   "skills": [
+                                "Clear Power-Up 3",
+                                {"text": "Wise Entry ×2", "highlight": true},
+                                "Standfast 9"
+                              ]
+                    }
+}
