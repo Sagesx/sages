@@ -1,0 +1,169 @@
+{
+    "title": "Costume Event - Trouble at the Alola Fair - Battle Challenge! Round 2",
+
+    "missions": [
+                    "1 or more [ALOLA] & [PALDEA] (must have both) theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [POISON] & [FLYING] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "1) June 11th, 2025 06:00 UTC to June 30th, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "dragon",
+                    "title": "Punk Girl & Appletun",
+                    "trainer_name": "Punk Girl",
+                    "pokemon_name": "Appletun",
+                    
+                    "hp": "11550",
+                    "atk": "1152",
+                    "def": "83",
+                    "spa": "1,152",
+                    "spd": "83",
+                    "spe": "204",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-flying",
+                    "weakness_img": "images/types/32px/flying.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [    
+                                "Earthquake (Unlimited)",
+                                "Dragon Pulse (Uses 1)",
+                                "X Sp. Def All (Uses 1)",
+                                "--- Post Sync ---",
+                                "Earthquake (Unlimited)"
+                             ],
+                   "skills": [
+                                {"text": "No Negative Status Change: P-Move DR & S-Move DR 8", "highlight": true},
+                                "Dragon Zone Extension 5",                                
+                                "Draconic Power 2",
+                                "Draconic Acceleration 2",
+                                "Slippery Sidekicks 1"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "dragon",
+                    "title": "Samson Oak & Exeggcutor",
+                    "trainer_name": "Samson Oak",
+                    "pokemon_name": "Exeggcutor (Alola)",
+                    
+                    "hp": "30800",
+                    "atk": "1728",
+                    "def": "83",
+                    "spa": "1728",
+                    "spd": "83",
+                    "spe": "67",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "3",
+
+                    "weakness_class": "bg-type-poison",
+                    "weakness_img": "images/types/32px/poison.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "5",
+                    "flinch":   "5",
+                    "trap":     "7",
+
+                    "moves": [
+                                "Earthquake (Unlimited)",
+                                "Breaking Swipe (Uses 1)",
+                                "Dragon Pulse (Unlimited)",
+                                "X Speed All (Uses 1)",
+                                "X Attack All (Uses 1)",
+                                "X Sp. Atk All (Uses 1)",
+                                "Sync Move: Dragon Sync Impact"
+                            ],
+                   "skills": [
+                                {"text": "Dragon Drop Zone", "highlight": true},
+                                {"text": "1st S-Move: Dragon Zone", "highlight": true},
+                                {"text": "No Negative Status Change: P-Move DR & S-Move DR 8", "highlight": true},
+                                "Draconic Power 2",
+                                "Draconic Sync 5",
+                                "Dragon Zone Extension 5",
+                                "Team Evasive Rush 2",
+                                "All DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "dragon",
+                    "title": "Youngster & Kommo-O",
+                    "trainer_name": "Youngster",
+                    "pokemon_name": "Kommo-O",
+                    
+                    "hp": "11550",
+                    "atk": "1728",
+                    "def": "83",
+                    "spa": "1728",
+                    "spd": "83",
+                    "spe": "204",   
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-flying",
+                    "weakness_img": "images/types/32px/flying.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":    "0",
+                    "burn":      "0",
+                    "paralyze":  "0",
+                    "freeze":    "0",
+                    "sleep":     "0",
+                    "confuse":   "0",
+                    "flinch":    "0",
+                    "trap":      "0",
+
+                    "moves": [
+                        	    "Hyper Voice (Unlimited)",
+	                            "Scale Shot (Uses 1)",
+	                            "X Defense All (Uses 1)",
+                                "--- Post Sync ---",
+	                            "Hyper Voice (Unlimited)",
+                              "Clanging Scales (Unlimited)"
+                            ],
+                   "skills": [
+                                {"text": "No Negative Status Change: P-Move DR & S-Move DR 8", "highlight": true},
+                                "Dragon Zone Extension 5",                                
+                                "Draconic Power 2",
+                                "Draconic Acceleration 2",
+                                "Slippery Sidekicks 1",
+                                "Dragon Shift"
+                              ]
+                    }
+}

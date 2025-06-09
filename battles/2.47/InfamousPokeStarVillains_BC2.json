@@ -1,0 +1,167 @@
+{
+    "title": "Costume Event - Infamous Pokéstar Villains - Battle Challenge! Round 2",
+
+    "missions": [
+                    "2 or more [UNOVA] theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [PSYCHIC] & [DARK] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "2) June 8th, 2025 06:00 UTC to June 24th, 2025 06:00 UTC",
+                    "1) April 30th, 2024 06:00 UTC to May 17th, 2024 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "psychic",
+                    "title": "Beauty & Alakazam",
+                    "trainer_name": "Beauty",
+                    "pokemon_name": "Alakazam",
+                    
+                    "hp": "7700",
+                    "atk": "1728",
+                    "def": "83",
+                    "spa": "1,728",
+                    "spd": "83",
+                    "spe": "204",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-dark",
+                    "weakness_img": "images/types/32px/dark.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [    
+                                "Dazzling Gleam (Unlimited)",
+                                "Swift (Uses 1)",
+                                "Move Gauge Boost (Uses 1)",
+                                "--- Post Sync ---",
+                                "Dazzling Gleam (Unlimited)",
+                                "Hyper Beam (Unlimited)"
+                             ],
+                   "skills": [
+                                {"text": "No Negative Status Change: P-Move DR & S-Move DR 8", "highlight": true},
+                                "All Ramped Up 1",
+                                "Sharpened Mind 5"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "psychic",
+                    "title": "Olympia & Sigilyph",
+                    "trainer_name": "Olympia",
+                    "pokemon_name": "Sigilyph",
+                    
+                    "hp": "30800",
+                    "atk": "1728",
+                    "def": "83",
+                    "spa": "1728",
+                    "spd": "83",
+                    "spe": "67",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "3",
+                    "spdMit": "3",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-dark",
+                    "weakness_img": "images/types/32px/dark.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Psychic (Unlimited)",
+                                "Zen Headbutt (Unlimited)",
+                                "Icy Wind (Unlimited)",
+                                "Physical Shield (Uses 1)",
+                                "X Sp. Atk All (Uses 1)",
+                                "Heat Wave (Uses 1)",
+                                "Sync Move: Starlight Path Psychic"
+                            ],
+                   "skills": [
+                                {"text": "No Negative Status Change: P-Move DR & S-Move DR 8", "highlight": true},
+                                "Steady Resolve 3",
+                                "Trained Mind 3",
+                                "Team Pinpoint Entry 1",
+                                "Burst In",
+                                "Build Up",
+                                "Sharpened Mind 5",
+                                "Brain Sync 5",
+                                "All DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "psychic",
+                    "title": "Scientist & Slowbro",
+                    "trainer_name": "Scientist",
+                    "pokemon_name": "Slowbro",
+                    
+                    "hp": "7700",
+                    "atk": "1152",
+                    "def": "83",
+                    "spa": "1152",
+                    "spd": "83",
+                    "spe": "204",   
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-dark",
+                    "weakness_img": "images/types/32px/dark.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":    "0",
+                    "burn":      "0",
+                    "paralyze":  "0",
+                    "freeze":    "0",
+                    "sleep":     "0",
+                    "confuse":   "0",
+                    "flinch":    "0",
+                    "trap":      "0",
+
+                    "moves": [
+                        	    "Liquidation (Unlimited)",
+	                            "Razor Shell (Uses 1)",
+	                            "Condition Shield (Uses 1)",
+                                "--- Post Sync ---",
+	                            "Razor Shell (Unlimited)",
+                              "Muddy Water (Unlimited)"
+                            ],
+                   "skills": [
+                                {"text": "No Negative Status Change: P-Move DR & S-Move DR 8", "highlight": true},
+                                "All Ramped Up 1",
+                                "Sharpened Mind 5"
+                              ]
+                    }
+}

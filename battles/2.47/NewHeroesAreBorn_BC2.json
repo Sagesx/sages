@@ -1,0 +1,173 @@
+{
+    "title": "Costume Event - New Heroes Are Born - Battle Challenge! Round 2",
+
+    "missions": [
+                    "1 or more [SINNOH] & [ALOLA] (must have both) theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [BUG] & [STEEL] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "2) June 6th, 2025 06:00 UTC to June 24th, 2025 06:00 UTC",
+                    "1) April 12th, 2024 06:00 UTC to May 17th, 2024 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "rock",
+                    "title": "Ace Trainer & Cradily",
+                    "trainer_name": "Ace Trainer M",
+                    "pokemon_name": "Cradily",
+                    
+                    "hp": "11,550",
+                    "atk": "1,536",
+                    "def": "83",
+                    "spa": "1,536",
+                    "spd": "83",
+                    "spe": "204",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-bug",
+                    "weakness_img": "images/types/32px/bug.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [    
+                                "Bullet Seed (Unlimited)",
+                                "Rock Tomb (Uses 1)",
+                                "X Sp. Def All (Uses 1)",
+                                "--- Post Sync ---",
+                                "Rock Tomb (Unlimited)",
+                                "Sludge Wave (Unlimited)"
+                             ],
+                   "skills": [
+                                {"text": "Wise Entry x2", "highlight": true},
+                                {"text": "Agile Entry 2", "highlight": true},
+                                "Rock Zone: Moves ↑3",
+                                "Lithic Acceleration 3",
+                                "Rock Zone Extension 5",
+                                "All DF Resistance 9"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "rock",
+                    "title": "Raihan & Gigalith",
+                    "trainer_name": "Raihan",
+                    "pokemon_name": "Gigalith",
+                    
+                    "hp": "23,100",
+                    "atk": "1,536",
+                    "def": "83",
+                    "spa": "1,536",
+                    "spd": "83",
+                    "spe": "67",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-steel",
+                    "weakness_img": "images/types/32px/steel.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Earthquake (Unlimited)",
+                                "Stone Edge (Uses 1)",
+                                "Rock Tomb (Unlimited)",
+                                "X Defense All (Uses 1)",
+                                {"text": "X Evasion All (Uses 1)", "highlight": true},
+                                "X Attack All (Uses 1)",
+                                "Sync Move: Smashing Rock Impact"
+                            ],
+                   "skills": [
+                                {"text": "Wise Entry ×2", "highlight": true},
+                                {"text": "Debut: Rock Zone", "highlight": true},
+                                {"text": "S-Move: Rock Zone", "highlight": true},
+                                "Rock Zone: Moves ↑ 3",
+                                "Rock Zone: S-Moves ↑ 3",
+                                "Lithic Acceleration 3",
+                                "Rock Zone Extension 5",
+                                "Team Pinpoint Entry 2",
+                                "All DF Resistance 9"
+                              ]
+                },
+
+    "right": {
+                    "type": "rock",
+                    "title": "Goride & Tyranitar",
+                    "trainer_name": "Gordie",
+                    "pokemon_name": "Tyranitar",
+                    
+                    "hp": "11,550",
+                    "atk": "1056",
+                    "def": "83",
+                    "spa": "1056",
+                    "spd": "83",
+                    "spe": "204",   
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-bug",
+                    "weakness_img": "images/types/32px/bug.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":    "9",
+                    "burn":      "9",
+                    "paralyze":  "8",
+                    "freeze":    "8",
+                    "sleep":     "8",
+                    "confuse":   "8",
+                    "flinch":    "8",
+                    "trap":      "9",
+
+                    "moves": [
+                        	    "Crunch (Unlimited)",
+	                            "Stone Edge (Uses 1)",
+	                            "X Speed All (Uses 1)",
+                                "--- Post Sync ---",
+	                            "Stone Edge",
+                              "Rock Slide"
+                            ],
+                   "skills": [
+                                {"text": "Wise Entry x2", "highlight": true},
+                                {"text": "Agile Entry 2", "highlight": true},
+                                "Rock Zone: Moves ↑3",
+                                "Lithic Acceleration 3",
+                                "Rock Zone Extension 5",
+                                "All DF Resistance 9"
+                              ]
+                    }
+}
