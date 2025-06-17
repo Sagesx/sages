@@ -15,7 +15,8 @@
     }
     .details-section {
       padding: 1rem;
-      max-width: 1500px;
+      max-width: 75%;
+      width: 100%;
       margin: auto;
       color: white;
     }
