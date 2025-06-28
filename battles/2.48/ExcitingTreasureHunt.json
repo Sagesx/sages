@@ -1,0 +1,166 @@
+{
+    "title": "Story Event - Exciting Treasure Hunt - Battle Challenge! Round 2",
+
+    "missions": [
+                    "1 or more [SINNOH] & [ALOLA] (must have both) theme skills with 1 or fewer sync pairs being knocked out.",
+                    "2 or more [GHOST] theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "2) July 4th, 2025 06:00 UTC to July 22nd, 2025 06:00 UTC",
+                    "1) June 28th, 2024 06:00 UTC - July 15th, 2024 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "fairy",
+                    "title": "Swimmer & Wigglytuff",
+                    "trainer_name": "Swimmer F",
+                    "pokemon_name": "Wigglytuff",
+                    
+                    "hp": "11,550",
+                    "atk": "1,728",
+                    "def": {"text": "166", "highlight": true},
+                    "spa": "1,728",
+                    "spd": "83",
+                    "spe": "204",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-steel",
+                    "weakness_img": "images/types/32px/steel.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [
+                                "Hyper Voice (Unlimited)",
+                                "Water Pulse (Uses 1)",
+                                "X Sp. Def All (Uses 1)",
+                                "Hyper Voice (Unlimited)",
+                                "Giga Impact (Unlimited)"
+                             ],
+                   "skills": [
+                                {"text": "Clear Advantage 4", "highlight": true},
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Sharpened Mind 5",
+                                "All Ramped Up 1",
+                                "Hype Up 9"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "psychic",
+                    "title": "Steven & Metagross",
+                    "trainer_name": "Steven (Sum 2020)",
+                    "pokemon_name": "Metagross",
+                    
+                    "hp": "26,950",
+                    "atk": "1,728",
+                    "def": {"text": "166", "highlight": true},
+                    "spa": "1,728",
+                    "spd": "83",
+                    "spe": "67",
+                    "atkMit": "3",
+                    "defMit": "5",
+                    "spaMit": "3",
+                    "spdMit": "3",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-ghost",
+                    "weakness_img": "images/types/32px/ghost.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Shadow Ball (Unlimited)",
+                                "Body Slam (Unlimited)",
+                                "Earthquake (Unlimited)",
+                                "X Speed All (Uses 1)",
+                                "X Attack All (Uses 1)",
+                                "X Sp. Atk All (Uses 1)",
+                                "Psychic Sync Impact"
+                            ],
+                   "skills": [
+                                {"text": "Clear Advantage 4", "highlight": true},
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Sharpened Body 3",
+                                "Sharpened Mind 3",
+                                "Brawn Sync 5",
+                                "Brain Sync 5"
+                              ]
+                },
+
+    "right": {
+                    "type": "water",
+                    "title": "Swimmer & Slowbro",
+                    "trainer_name": "Swimmer M",
+                    "pokemon_name": "Slowbro",
+                    
+                    "hp": "7,700",
+                    "atk": "1152",
+                    "def": {"text": "166", "highlight": true},
+                    "spa": "1152",
+                    "spd": "83",
+                    "spe": "204",   
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-ghost",
+                    "weakness_img": "images/types/32px/ghost.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":    "0",
+                    "burn":      "0",
+                    "paralyze":  "0",
+                    "freeze":    "0",
+                    "sleep":     "0",
+                    "confuse":   "0",
+                    "flinch":    "0",
+                    "trap":      "0",
+
+                    "moves": [
+                                "Razor Shell (Unlimited)",
+                                "Surf (Uses 1)",
+                                "X Defense All (Uses 1)",
+                                "Razor Shell (Unlimited)",
+                                "Earthquake (Unlimited)"
+                            ],
+                   "skills": [
+                                {"text": "Clear Advantage 4", "highlight": true},
+                                {"text": "Sentry Entry ×2", "highlight": true},
+                                "Sharpened Body 5",
+                                "Berserk Bunch 1",
+                                "Flag Bearer 9"
+                              ]
+                    }
+}

@@ -1,0 +1,170 @@
+{
+    "title": "Special Battle Event - Arceus Arc Celebration - Challenge Those Blessed by a Deity",
+
+    "missions": [
+                    "1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "1) July 15th, 2025 06:00 UTC to August 2nd, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "normal",
+                    "title": "? & ?",
+                    "trainer_name": "?",
+                    "pokemon_name": "?",
+                    
+                    "hp": "0",
+                    "atk": "0",
+                    "def": "0",
+                    "spa": "0",
+                    "spd": "0",
+                    "spe": "0",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-normal",
+                    "weakness_img": "images/types/32px/normal.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [
+                        	    "None"
+                             ],
+                   "skills": [
+                                "None"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "fire",
+                    "title": "Arc Suit Silver & Ho-Oh",
+                    "trainer_name": "Arc Suit Silver",
+                    "pokemon_name": "Ho-Oh",
+                    
+                    "hp": "281,050",
+                    "atk": "1,920",
+                    "def": "83",
+                    "spa": "1,920",
+                    "spd": "83",
+                    "spe": "67",
+                    "atkMit": "5",
+                    "defMit": "3",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-rock",
+                    "weakness_img": "images/types/32px/rock.png",
+
+                    "resil": "✔️", "gaze": "✔️",
+
+                    "poison":   "10",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Fire Blast (Unlimited)",
+                                "Earthquake (Unlimited)",
+                                "Sacred Fire (Unlimited)",
+                                "Heat Wave (Unlimited)",
+                                "X Attack All (Uses 1)",
+                                "Sunny Day (Unlimited)",
+                                "Sync Move: Golden Rule Divine Sacred Fire"
+                            ],
+                   "skills": [
+                                {"text": "Sunburst", "highlight": true},
+                                "Drought Alert 9",
+                                {"text": "Sunny: Team Moves ↑ 5", "highlight": true},
+                                {"text": "Solar Flare 5", "highlight": true},
+                                "Speeding Sun 2",
+                                {"text": "Team Sunbathe 9", "highlight": true},
+                                {"text": "Defense ↑: Defense ×3 Sp. Def ×3", "highlight": true},
+                                {"text": "Defense ↑: P-Moves ↑ & S-Moves ↑ 5", "highlight": true},
+                                "Team Stoic 9",
+                                "S-Move: Team 5 Stats ↑ 2",
+                                "Move Gauge Refresh 9",
+                                "Aerial Power 3",
+                                "Team Strengthening Status 9",
+                                "1st Use Status P-Move: Team Crit Rate ↑ 3"
+                              ]
+                },
+
+    "right": {
+                    "type": "flying",
+                    "title": "Arc Suit Ethan & Lugia",
+                    "trainer_name": "Arc Suit Ethan",
+                    "pokemon_name": "Lugia",
+                    
+                    "hp": "146,300",
+                    "atk": "2496",
+                    "def": "83",
+                    "spa": "2496",
+                    "spd": "83",
+                    "spe": "204",   
+                    "atkMit": "5",
+                    "defMit": "3",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-rock",
+                    "weakness_img": "images/types/32px/rock.png",
+
+                    "resil": "✔️", "gaze": "✔️",
+
+                    "poison":    "10",
+                    "burn":      "9",
+                    "paralyze":  "8",
+                    "freeze":    "8",
+                    "sleep":     "8",
+                    "confuse":   "8",
+                    "flinch":    "8",
+                    "trap":      "9",
+
+                    "moves": [
+                                "Hyper Voice (Unlimited)",
+                                "Brave Bird (Unlimited)",
+                                "X Sp. Atk All (Uses 1)",
+                                "Flying Wish (Uses 1)",
+                                "Aeroblast (Unlimited)"
+                            ],
+                   "skills": [
+                                {"text": "Landing Pad", "highlight": true},
+                                "Flying Zone Extension 9",
+                                {"text": "Aerial Power 5", "highlight": true},
+                                "Aerial Acceleration 2",
+                                {"text": "Flying Zone: HP Recovery 1", "highlight": true},
+                                {"text": "Defense ↑: Defense ×3 Sp. Def ×3", "highlight": true},
+                                {"text": "Defense ↑: P-Moves ↑ & S-Moves ↑ 5", "highlight": true},
+                                "Team Stoic 9",
+                                "Standfast 9",
+                                "Flying Shift",
+                                "Move: MG ↑2 9"
+                              ]
+                    }
+}

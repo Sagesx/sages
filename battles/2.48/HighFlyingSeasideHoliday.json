@@ -1,0 +1,177 @@
+{
+    "title": "Story Event - High-Flying Seaside Holiday - Battle Challenge! Round 2",
+
+    "missions": [
+                    "1 or more [SINNOH] & [UNOVA] (must have both) theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [WATER] & [GRASS] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "1) June 30th, 2025 06:00 UTC to July 18th, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "water",
+                    "title": "Swimmer & Carracosta",
+                    "trainer_name": "Swimmer M",
+                    "pokemon_name": "Carracosta",
+                    
+                    "hp": "11,500",
+                    "atk": "1,152",
+                    "def": {"text": "249", "highlight": true},
+                    "spa": "1,152",
+                    "spd": "83",
+                    "spe": "204",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-grass",
+                    "weakness_img": "images/types/32px/grass.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [
+                                "Scald (Unlimited)",
+                                "Scald (Uses 1)",
+                                "X Speed All (Uses 1)",
+                                "Scald (Unlimited)",
+                                "Surf (Unlimited)"
+                             ],
+                   "skills": [
+                                {"text": "Sentry Entry ×3", "highlight": true},
+                                "Sand Shelter",
+                                "Sand Alert 5",
+                                "Sands of Time 2",
+                                {"text": "Surging Sand 5", "highlight": true},
+                                {"text": "Sandstorm: P-Moves & S-Moves EZ Crit 3", "highlight": true},
+                                "Scorcher 2",
+                                {"text": "Hostile Environment 3", "highlight": true}
+                              ]
+                    },
+
+    "mid": {
+                    "type": "ground",
+                    "title": "Lear & Krookodile",
+                    "trainer_name": "Lear",
+                    "pokemon_name": "Krookodile",
+                    
+                    "hp": "46,200",
+                    "atk": "1,728",
+                    "def": {"text": "249", "highlight": true},
+                    "spa": "1,728",
+                    "spd": "83",
+                    "spe": "67",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-grass",
+                    "weakness_img": "images/types/32px/grass.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "8",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "8",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Earthquake (Unlimited)",
+                                "Fire Fang (Uses 1)",
+                                "Double-Edge (Uses 1)",
+                                "X Sp. Atk All (Uses 1)",
+                                "Fire Fang (Uses 1)",
+                                "X Attack All (Uses 1)",
+                                "Ground Sync Beam"
+                            ],
+                   "skills": [
+                                {"text": "Sentry Entry ×3", "highlight": true},
+                                "Sand Shelter",
+                                "Sand Alert 5",
+                                "Standfast 9",
+                                "Sand Sync",
+                                {"text": "Surging Sand 5", "highlight": true},
+                                {"text": "Sandstorm: P-Moves & S-Moves EZ Crit 3", "highlight": true},
+                                {"text": "Sand Blaster 5", "highlight": true},
+                                "Scorcher 2",
+                                {"text": "Sand Kicker", "highlight": true},
+                                {"text": "Hostile Environment 9", "highlight": true},
+                                "Move Gauge Refresh 9",
+                                "Pinpoint Entry 1"
+                              ]
+                },
+
+    "right": {
+                    "type": "water",
+                    "title": "Swimmer & Gastrodon",
+                    "trainer_name": "Swimmer F",
+                    "pokemon_name": "Gastrodon (West)",
+                    
+                    "hp": "11,500",
+                    "atk": "1,152",
+                    "def": {"text": "249", "highlight": true},
+                    "spa": "1,152",
+                    "spd": "83",
+                    "spe": "204",
+                    "atkMit": "0",
+                    "defMit": "0",
+                    "spaMit": "0",
+                    "spdMit": "0",
+                    "speMit": "0",
+                    "accMit": "0",
+                    "evaMit": "0",
+
+                    "weakness_class": "bg-type-grass",
+                    "weakness_img": "images/types/32px/grass.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "0",
+                    "burn":     "0",
+                    "paralyze": "0",
+                    "freeze":   "0",
+                    "sleep":    "0",
+                    "confuse":  "0",
+                    "flinch":   "0",
+                    "trap":     "0",
+
+                    "moves": [
+                                "Surf (Unlimited)",
+                                "Surf (Uses 1)",
+                                "X Defense All (Uses 1)",
+                                "Surf (Unlimited)",
+                                "Earthquake (Unlimited)"
+                            ],
+                   "skills": [
+                                {"text": "Sentry Entry ×3", "highlight": true},
+                                "Sand Shelter",
+                                "Sand Alert 5",
+                                "Sands of Time 2",
+                                {"text": "Surging Sand 5", "highlight": true},
+                                {"text": "Sandstorm: P-Moves & S-Moves EZ Crit 3", "highlight": true},
+                                "Scorcher 2"
+                              ]
+                    }
+}

@@ -38,8 +38,12 @@
                 "Street Thug (Team Break)": "images/trainer/npc/StreetThug_break.png",
                 "Swimmer ♀": "images/trainer/npc/SwimmerF.png",
                 "Swimmer ♀ (Team Break)": "images/trainer/npc/SwimmerF_break.png",
+                "Swimmer F": "images/trainer/npc/SwimmerF.png",
+                "Swimmer F (Team Break)": "images/trainer/npc/SwimmerF_break.png",                
                 "Swimmer ♂": "images/trainer/npc/SwimmerM.png",
                 "Swimmer ♂ (Team Break)": "images/trainer/npc/SwimmerM_break.png",
+                "Swimmer M": "images/trainer/npc/SwimmerM.png",
+                "Swimmer M (Team Break)": "images/trainer/npc/SwimmerM_break.png",                
                 "Youngster": "images/trainer/npc/Youngster.png"
             },
   "pasio": {
@@ -108,6 +112,7 @@
                 "Clair (NY 2024)": "images/trainer/johto/clair_ny24.png",
                 "Ethan": "images/trainer/johto/ethan.png",
                 "SS Ethan": "images/trainer/johto/ethan_ss.png",
+                "Arc Suit Ethan": "images/trainer/johto/ethan_arc.png",
                 "Eusine": "images/trainer/johto/eusine.png",
                 "Falkner": "images/trainer/johto/falkner.png",
                 "Jasmine": "images/trainer/johto/jasmine.png",
@@ -129,6 +134,7 @@
                 "Silver": "images/trainer/johto/silver.png",
                 "Silver (Champion)": "images/trainer/johto/silver_nc.png",
                 "SS Silver": "images/trainer/johto/silver_ss.png",
+                "Arc Suit Silver": "images/trainer/johto/silver_arc.png",
                 "Whitney": "images/trainer/johto/whitney.png",
                 "Whitney (HY 2022)": "images/trainer/johto/whitney_hy22.png",
                 "Will": "images/trainer/johto/will.png"
@@ -199,6 +205,7 @@
                 "SS Cynthia": "images/trainer/sinnoh/cynthia_ss.png",
                 "SSA Cynthia": "images/trainer/sinnoh/cynthia_ssa.png",
                 "SSR Cynthia": "images/trainer/sinnoh/cynthia_ssr.png",
+                "Cynthia (Sum 2025)": "images/trainer/sinnoh/cynthia_sum25.png",
                 "Cyrus": "images/trainer/sinnoh/cyrus.png",
                 "SS Cyrus": "images/trainer/sinnoh/cyrus_ss.png",
                 "Dahlia": "images/trainer/sinnoh/dahlia.png",
@@ -308,7 +315,8 @@
                 "Shauntal (Fall 2024)": "images/trainer/unova/shauntal_fall24.png",
                 "Skyla": "images/trainer/unova/skyla.png",
                 "Skyla (Anni 2022)": "images/trainer/unova/skyla_anni22.png",
-                "Skyla (HY 2020)": "images/trainer/unova/skyla_hy20.png"
+                "Skyla (HY 2020)": "images/trainer/unova/skyla_hy20.png",
+                "Skyla (Sum 2025)": "images/trainer/unova/skyla_sum25.png"
             },
   "kalos": {
                 "Blossom": "images/trainer/kalos/blossom.png",

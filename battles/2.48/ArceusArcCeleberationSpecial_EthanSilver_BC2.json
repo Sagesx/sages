@@ -1,0 +1,164 @@
+{
+    "title": "Special Battle Event - Arceus Arc Celebration - Battle Challenge! Round 2",
+
+    "missions": [
+                    "2 or more [JOHTO] theme skills with 1 or fewer sync pairs being knocked out.",
+                    "1 or more [FLYING] & [FIRE] (must have both) theme skills with 1 or fewer sync pairs being knocked out."
+                ],
+
+    "schedule": [
+                    "1) July 15th, 2025 06:00 UTC to August 2nd, 2025 06:00 UTC"
+                ],
+
+    "left": {
+                    "type": "bug",
+                    "title": "Bugsy & Scyther",
+                    "trainer_name": "Bugsy",
+                    "pokemon_name": "Scyther",
+                    
+                    "hp": "17,325",
+                    "atk": "1,152",
+                    "def": "83",
+                    "spa": "1,152",
+                    "spd": "83",
+                    "spe": "204",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-fire",
+                    "weakness_img": "images/types/32px/fire.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "5",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "7",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Double-Edge (Unlimited)",
+                                "Bug Buzz (Uses 1)",
+                                "Move Gauge Boost (Uses 1)",
+                                "Double-Edge (Unlimited)",
+                                "Giga Impact (Unlimited)"             
+                            ],
+                   "skills": [
+                                {"text": "Healthy Advantage 8", "highlight": true},
+                                {"text": "No Status Cond: P-Moves, S-Moves, & Max Moves ↑ 3", "highlight": true},
+                                {"text": "Clear Advantage 4", "highlight": true},
+                                "Standfast 9",
+                                "Move Gauge Refresh 9"
+                              ]
+                    },
+
+    "mid": {
+                    "type": "grass",
+                    "title": "Lyra & Meganium",
+                    "trainer_name": "Lyra",
+                    "pokemon_name": "Meganium",
+                    
+                    "hp": "34,650",
+                    "atk": "1,728",
+                    "def": "83",
+                    "spa": "1,728",
+                    "spd": "83",
+                    "spe": "67",
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-flying",
+                    "weakness_img": "images/types/32px/flying.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":   "9",
+                    "burn":     "9",
+                    "paralyze": "5",
+                    "freeze":   "8",
+                    "sleep":    "8",
+                    "confuse":  "8",
+                    "flinch":   "7",
+                    "trap":     "9",
+
+                    "moves": [
+                                "Giga Drain (Unlimited)",
+                                "Energy Ball (Unlimited)",
+                                "Petal Blizzard (Uses 3)",
+                                "X Speed All (Uses 1)",
+                                "X Sp. Atk All (Uses 1)",
+                                "X Attack All (Uses 1)",
+                                "Sync Move: Heart of Gold Leaf Storm"
+                            ],
+                   "skills": [
+                                {"text": "Healthy Advantage 8", "highlight": true},
+                                {"text": "No Status Cond: P-Moves, S-Moves, & Max Moves ↑ 3", "highlight": true},
+                                {"text": "Clear Advantage 4", "highlight": true},
+                                "Team Sync Cure 9",
+                                "Ferocious Entry 1"
+                              ]
+                },
+
+    "right": {
+                    "type": "fight",
+                    "title": "Chuck & Poliwrath",
+                    "trainer_name": "Chuck",
+                    "pokemon_name": "Poliwrath",
+                    
+                    "hp": "17,325",
+                    "atk": "1152",
+                    "def": "83",
+                    "spa": "1152",
+                    "spd": "83",
+                    "spe": "204",   
+                    "atkMit": "5",
+                    "defMit": "5",
+                    "spaMit": "5",
+                    "spdMit": "5",
+                    "speMit": "5",
+                    "accMit": "5",
+                    "evaMit": "5",
+
+                    "weakness_class": "bg-type-flying",
+                    "weakness_img": "images/types/32px/flying.png",
+
+                    "resil": "❌", "gaze": "❌",
+
+                    "poison":    "9",
+                    "burn":      "9",
+                    "paralyze":  "5",
+                    "freeze":    "8",
+                    "sleep":     "8",
+                    "confuse":   "8",
+                    "flinch":    "7",
+                    "trap":      "9",
+
+                    "moves": [
+                                "High Horsepower (Unlimited)",
+                                "Focus Blast (Uses 1)",
+                                "X Defense All (Uses 1)",
+                                "Focus Blast (Unlimited)",
+                                "Blizzard (Unlimited)"
+                            ],
+                   "skills": [
+                                {"text": "Healthy Advantage 8", "highlight": true},
+                                {"text": "No Status Cond: P-Moves, S-Moves, & Max Moves ↑ 3", "highlight": true},
+                                {"text": "Clear Advantage 4", "highlight": true},
+                                "Pinpoint Entry 3",
+                                "Move Gauge Refresh 9"
+                              ]
+                    }
+}
